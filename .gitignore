@@ -1,0 +1,9 @@
+# project settings
+package-lock.json
+
+# project temp
+node_modules/
+
+# idea temp files
+.vs/
+.idea/

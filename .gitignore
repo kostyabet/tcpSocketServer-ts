@@ -4,6 +4,9 @@ package-lock.json
 # project temp
 node_modules/
 
+# build files
+dist/
+
 # idea temp files
 .vs/
 .idea/

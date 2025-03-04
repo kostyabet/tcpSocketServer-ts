@@ -20,27 +20,12 @@
         </header>
         
         <main>
-            <div class="chat">
-                <div class="chat-item">
-                    <h3 class="chat-item-head">
-                        Headline
-                    </h3>
-                    <p class="chat-item-info">
-                        Hello world;  
-                    </p>
-                </div>
-                <div class="chat-item">
-                    <h3 class="chat-item-head">
-                        Headline
-                    </h3>
-                    <p class="chat-item-info">
-                        Hello world;  
-                    </p>
-                </div>
+            <div class="chat" id="chat">
+                
             </div>
             <div class="input-palet">    
                 <p id="error" class="error-title">
-                    Error
+                    
                 </p>
                 <input type="text" placeholder="Message..." id="message">
                     <button class="send" onclick="sendMessage()" id="send">
@@ -53,5 +38,6 @@
         <script src="./../dist/index.js"></script>
         <script src="./assets/js/error.js"></script>
         <script src="./assets/js/send.js"></script>
+        <script src="./assets/js/chatItem.js"></script>
     </body>
 </html>

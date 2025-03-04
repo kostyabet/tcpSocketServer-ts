@@ -6,5 +6,6 @@ function sendMessage() {
     }
     resetError();
     sendStringToTheNet(data.value);
+    renderItems();
     data.value = '';
 }
